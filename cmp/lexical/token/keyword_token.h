@@ -5,7 +5,7 @@
 #include <string.h>
 
 typedef enum {
-    CHAR_TOKEN = 1,
+    CHAR_TOKEN,
     SHORT_TOKEN,
     INT_TOKEN,
     LONG_TOKEN,
