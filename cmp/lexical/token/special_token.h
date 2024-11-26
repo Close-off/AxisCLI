@@ -2,7 +2,7 @@
 #define SPECIAL_TOKEN_H
 
 typedef enum {
-    SEMICOLON_TOKEN = 1,     
+    SEMICOLON_TOKEN,     
     COLON_TOKEN,             
     COMMA_TOKEN,             
     DOT_TOKEN,               
@@ -55,7 +55,6 @@ special_token special_characters[] = {
     {"&", AMPERSAND_TOKEN},
     {"|", PIPE_TOKEN},
     {"^", CARET_TOKEN},
-    {"~", TILDE_TOKEN},
     {"<", LESS_THAN_TOKEN},
     {">", GREATER_THAN_TOKEN},
     {"=", EQUAL_TOKEN},
@@ -69,7 +68,6 @@ special_token special_characters[] = {
     {"\"", DOUBLE_QUOTE_TOKEN},
     {"\\", BACKSLASH_TOKEN},
     {"#", HASH_TOKEN},
-    {"$", DOLLAR_TOKEN},
     {"@", AT_TOKEN}
 };
 
