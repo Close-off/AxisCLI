@@ -6,4 +6,6 @@ Hosting: GitHub
 
 Copyright: None
 
-Branch: Test
+Branch: Master
+
+This is a minimalist compilator
